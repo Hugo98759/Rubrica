@@ -3,7 +3,7 @@
 // Autor: Hugo Hincapié
 
 // ======== CONFIGURACIÓN MYSQL ========
-$$mysql_host = "10.2.2.0";
+$mysql_host = "10.2.2.0";
 $mysql_user = "adminmysql";       // El usuario exacto que creaste en Azure
 $mysql_pass = "Zz308681377..";   // Tu contraseña real
 $mysql_db   = "mysql";            // O la base que creaste
