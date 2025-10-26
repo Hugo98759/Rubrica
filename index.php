@@ -3,9 +3,9 @@
 // Autor: Hugo Hincapié
 
 // ======== CONFIGURACIÓN MYSQL ========
-$mysql_server = "mysql-prd-hincapie.private.mysql.database.azure.com";
-$mysql_user = "adminhugo";    // Cambia este usuario al real que configuraste
-$mysql_pass = "TuContraseña"; // Cambia la contraseña
+$mysql_host = "10.2.2.0";
+$mysql_user = "adminmysql";    // Cambia este usuario al real que configuraste
+$mysql_pass = "Zz3006818377."; // Cambia la contraseña
 $mysql_db = "mysql";
 $mysql_port = 3306;
 
@@ -109,9 +109,9 @@ $pg_port = 5432;
     try {
         $pg_conn = pg_connect("host=$pg_server port=$pg_port dbname=$pg_db user=$pg_user password=$pg_pass");
         if ($pg_conn) {
-            echo "<div class='result ok'>✅ Conectado correctamente a PostgreSQL</div>";
+            echo "<div class='result ok'> Conectado correctamente a PostgreSQL</div>";
         } else {
-            throw new Exception("❌ Error al conectar con PostgreSQL");
+            throw new Exception(" Error al conectar con PostgreSQL");
         }
     } catch (Exception $e) {
         echo "<div class='result fail'>".$e->getMessage()."</div>";
