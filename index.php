@@ -3,16 +3,16 @@
 // Autor: Hugo Hincapié
 
 // ======== CONFIGURACIÓN MYSQL ========
-$mysql_host = "10.2.2.0";
+$mysql_host = "http://mysql-prd-hincapie.mysql.database.azure.com/";
 $mysql_user = "adminmysql";    // Cambia este usuario al real que configuraste
-$mysql_pass = "Zz3006818377."; // Cambia la contraseña
+$mysql_pass = "Zz3006818377.."; // Cambia la contraseña
 $mysql_db = "mysql";
 $mysql_port = 3306;
 
 // ======== CONFIGURACIÓN POSTGRESQL ========
-$pg_server = "postgres-prd-hincapie.private.postgres.database.azure.com";
-$pg_user = "adminhugo";       // Cambia este usuario al real que configuraste
-$pg_pass = "TuContraseña";    // Cambia la contraseña
+$pg_server = "postgres-prd-hincapie.postgres.database.azure.com";
+$pg_user = "adminpostgres";       // Cambia este usuario al real que configuraste
+$pg_pass = "Zz3006818377..";    // Cambia la contraseña
 $pg_db = "postgres";
 $pg_port = 5432;
 ?>
