@@ -3,14 +3,14 @@
 // Autor: Hugo Hincapié
 
 // ======== CONFIGURACIÓN MYSQL ========
-$mysql_host = "10.2.2.0";
+$mysql_host = "mysql-prd-hincapie.mysql.database.azure.com";
 $mysql_user = "adminmysql";       // El usuario exacto que creaste en Azure
 $mysql_pass = "Zz308681377..";   // Tu contraseña real
 $mysql_db   = "mysql";            // O la base que creaste
 $mysql_port = 3306;
 
 // ======= CONFIGURACIÓN POSTGRESQL =======
-$pg_host = "10.2.3.0";
+$pg_host = "postgres-prd-hincapie.postgres.database.azure.com";
 $pg_user   = "adminpostgres";     // El usuario exacto del servidor PostgreSQL
 $pg_pass   = "Zz308681377..";    // Tu contraseña real
 $pg_db     = "postgres";
